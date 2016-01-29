@@ -23,7 +23,7 @@
 #define  KEPLERSYSTEM_H
 #include <vector>
 #include <cmath>
-#include <iostream>
+//#include <iostream>
 
 using namespace std;
 
@@ -228,9 +228,9 @@ public:
 			daysOfPos++;
 		//Finally we can calculate the number of days from 8/25/96
 		numberOfDays = daysOfPos - EPOCH;
-		cout << numberOfDays << endl;
+		/*cout << numberOfDays << endl;
 		int a;
-		cin >> a;
+		cin >> a;*/
 	}
 	void calculateSolarSystem(){
 		//calls all the various functions in the right order to calclate the solarsystem
